@@ -14,50 +14,50 @@ This model and The lidar only HV PointPillars with SECFPN \+ SyncBN were both ev
 
 	HV PointPillars with SECFPN \+ SyncBN
 
-mAP: 0.3263                                                                                      
-mATE: 0.5718  
-mASE: 0.5247  
-mAOE: 0.6320  
-mAVE: 0.4985  
-mAAE: 0.3275  
-NDS: 0.4077  
-Eval time: 1.9s  
-Per-class results:  
-Object Class        	AP    	ATE   	ASE   	AOE   	AVE   	AAE     
-car                 	0.842 	0.207 	0.165 	0.193 	0.135 	0.122   
-truck               	0.541 	0.321 	0.195 	0.131 	0.123 	0.063   
-bus                 	0.833 	0.313 	0.094 	0.024 	0.651 	0.172   
-trailer             	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
-construction\_vehicle	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
-pedestrian          	0.706 	0.172 	0.250 	0.384 	0.338 	0.146   
-motorcycle          	0.144 	0.364 	0.303 	1.585 	0.128 	0.117   
-bicycle             	0.198 	0.341 	0.238 	0.370 	0.614 	0.000   
-traffic\_cone        	0.000 	1.000 	1.000 	nan   	nan   	nan     
-barrier             	0.000 	1.000 	1.000 	1.000 	nan   	nan   
+		mAP: 0.3263                                                                                      
+		mATE: 0.5718  
+		mASE: 0.5247  
+		mAOE: 0.6320  
+		mAVE: 0.4985  
+		mAAE: 0.3275  
+		NDS: 0.4077  
+		Eval time: 1.9s  
+		Per-class results:  
+		Object Class        	AP    	ATE   	ASE   	AOE   	AVE   	AAE     
+		car                 	0.842 	0.207 	0.165 	0.193 	0.135 	0.122   
+		truck               	0.541 	0.321 	0.195 	0.131 	0.123 	0.063   
+		bus                 	0.833 	0.313 	0.094 	0.024 	0.651 	0.172   
+		trailer             	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
+		construction\_vehicle	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
+		pedestrian          	0.706 	0.172 	0.250 	0.384 	0.338 	0.146   
+		motorcycle          	0.144 	0.364 	0.303 	1.585 	0.128 	0.117   
+		bicycle             	0.198 	0.341 	0.238 	0.370 	0.614 	0.000   
+		traffic\_cone        	0.000 	1.000 	1.000 	nan   	nan   	nan     
+		barrier             	0.000 	1.000 	1.000 	1.000 	nan   	nan   
 
 	FCOS3D monocular 3D detector.
 
-mAP: 0.0000                                                                                                                                                         
-mATE: 0.9995  
-mASE: 0.9809  
-mAOE: 0.9695  
-mAVE: 0.8623  
-mAAE: 0.8533  
-NDS: 0.0334  
-Eval time: 5.1s
-
-Per-class results:  
-Object Class        	AP    	ATE   	ASE   	AOE   	AVE   	AAE     
-car                 	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
-truck               	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
-bus                 	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
-trailer             	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
-construction\_vehicle	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
-pedestrian          	0.000 	1.165 	0.818 	1.453 	0.855 	0.826   
-motorcycle          	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
-bicycle             	0.000 	0.830 	0.991 	0.273 	0.044 	0.000   
-traffic\_cone        	0.000 	1.000 	1.000 	nan   	nan   	nan     
-barrier             	0.000 	1.000 	1.000 	1.000 	nan   	nan 
+		mAP: 0.0000                                                                                                                                                         
+		mATE: 0.9995  
+		mASE: 0.9809  
+		mAOE: 0.9695  
+		mAVE: 0.8623  
+		mAAE: 0.8533  
+		NDS: 0.0334  
+		Eval time: 5.1s
+		
+		Per-class results:  
+		Object Class        	AP    	ATE   	ASE   	AOE   	AVE   	AAE     
+		car                 	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
+		truck               	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
+		bus                 	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
+		trailer             	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
+		construction\_vehicle	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
+		pedestrian          	0.000 	1.165 	0.818 	1.453 	0.855 	0.826   
+		motorcycle          	0.000 	1.000 	1.000 	1.000 	1.000 	1.000   
+		bicycle             	0.000 	0.830 	0.991 	0.273 	0.044 	0.000   
+		traffic\_cone        	0.000 	1.000 	1.000 	nan   	nan   	nan     
+		barrier             	0.000 	1.000 	1.000 	1.000 	nan   	nan 
 
 The lidar based model is performing fairly well (NDS ≈0.41 and mAP ≈0.33). It is performing well on common classes and not as well on rare and small objects.  The monocular FCOS3D performed very poorly \-basically didn’t detect anything- likely from the fact that it was trained in only one epoch and as a result was very under trained. 
 
