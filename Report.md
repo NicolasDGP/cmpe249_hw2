@@ -4,7 +4,7 @@ All test were ran on the college of engineering HPC using the following GPU:
 
 `srun -p nsfqs --time=12:00:00 --pty /bin/bash`
 
-![][image1]
+![nvidia-smi](ndivia-smi.png)
 
 A conda environment was set up. The .yml file can be found in the repo. The main things being that the dependencies were sorted for mmdetectio3D to work.
 
