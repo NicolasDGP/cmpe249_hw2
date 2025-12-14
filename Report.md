@@ -35,7 +35,7 @@ bicycle             	0.198 	0.341 	0.238 	0.370 	0.614 	0.000
 traffic\_cone        	0.000 	1.000 	1.000 	nan   	nan   	nan     
 barrier             	0.000 	1.000 	1.000 	1.000 	nan   	nan   
 
-FCOS3D monocular 3D detector.
+	FCOS3D monocular 3D detector.
 
 mAP: 0.0000                                                                                                                                                         
 mATE: 0.9995  
